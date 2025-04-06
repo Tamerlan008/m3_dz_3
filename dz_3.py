@@ -15,6 +15,7 @@ class MyWindow(QWidget):
         self.text_input = QLineEdit(self)
         self.text_input.setPlaceholderText("Введите текст")
         
+        
         self.button = QPushButton("Показать текст", self)
 
         
